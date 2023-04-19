@@ -67,10 +67,10 @@ import PropTypes from 'prop-types';
 
 export default function CommentList({ loading, comments, totalCount }) {
   if (loading) {
-    return <div>loading</div>;
+    return <div>loading...</div>;
   }
   if (comments.length === 0) {
-    return <div>empty</div>;
+    return <div>empty...</div>;
   }
   return (
    <>
